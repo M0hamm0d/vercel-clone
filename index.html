@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Vercel clone</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
@@ -24,299 +24,336 @@
     />
   </head>
   <body>
-    <div class="header-container">
-      <div class="header-section">
-        <div class="flex-start">
-          <div class="">
-            <svg
-              aria-label="Vercel Logo"
-              fill="var(--geist-foreground)"
-              viewBox="0 0 75 65"
-              height="26"
-              data-testid="dashboard/logo"
-            >
-              <path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
-            </svg>
+    <div class="body">
+      <div class="header-container">
+        <div class="header-section">
+          <div class="flex-start">
+            <div class="triangle">
+              <svg
+                aria-label="Vercel Logo"
+                fill="var(--geist-foreground)"
+                viewBox="0 0 75 65"
+                height="26"
+                data-testid="dashboard/logo"
+              >
+                <path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
+              </svg>
+            </div>
+            <div class="forward-slash">
+              <svg
+                class="with-icon_icon__MHUeb"
+                data-testid="geist-icon"
+                fill="none"
+                height="24"
+                shape-rendering="geometricPrecision"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1"
+                viewBox="0 0 24 24"
+                width="24"
+                style="
+                  color: var(--ds-gray-alpha-400);
+                  width: 22px;
+                  height: 22px;
+                "
+              >
+                <path d="M16.88 3.549L7.12 20.451"></path>
+              </svg>
+            </div>
+            <div class="Address-name">
+              <div class="Address">
+                <div class="">
+                  <img
+                    src="https://vercel.com/api/www/avatar?teamId=team_2pPkmpDXhGDX2WMsH05ouzcE&s=44"
+                    alt=""
+                    class="colors"
+                  />
+                </div>
+                <p class="My-name">Muhammad Abdussalam's projects</p>
+                <div class="">
+                  <button class="hobbies">Hobby</button>
+                </div>
+              </div>
+              <div class="">
+                <!-- <svg
+                  aria-hidden="true"
+                  fill="none"
+                  height="16"
+                  stroke="var(--ds-gray-900)"
+                  stroke-width="1.5"
+                  viewBox="0 0 16 24"
+                >
+                  <path d="M13 8.517L8 3 3 8.517M3 15.48l5 5.517 5-5.517"></path>
+                </svg> -->
+              </div>
+            </div>
           </div>
-          <div class="">
-            <svg
-              class="with-icon_icon__MHUeb"
-              data-testid="geist-icon"
-              fill="none"
-              height="24"
-              shape-rendering="geometricPrecision"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1"
-              viewBox="0 0 24 24"
-              width="24"
-              style="color: var(--ds-gray-alpha-400); width: 22px; height: 22px"
-            >
-              <path d="M16.88 3.549L7.12 20.451"></path>
-            </svg>
-          </div>
-          <div class="Address-name">
-            <div class="Address">
+          <div class="flex-end">
+            <div class="upfeed">
+              <span class="upgrade">Upgrade</span>
+              <span class="feedback">Feedback</span>
+            </div>
+            <div class="help">
+              <a href="#">Changelog</a>
+              <a href="#">Help</a>
+              <a href="#">Docs</a>
+            </div>
+            <div class="not-acc">
+              <div class="Logo">
+                <i class="fa-regular fa-bell notification-logo logo"></i>
+              </div>
               <div class="">
                 <img
-                  src="https://vercel.com/api/www/avatar?teamId=team_2pPkmpDXhGDX2WMsH05ouzcE&s=44"
+                  src="https://vercel.com/api/www/avatar/5wSP6CUEiCwTz5GjEfGUeQxF?&s=64"
                   alt=""
-                  class="colors"
+                  class="account-logo"
                 />
               </div>
-              <div class="">Muhammad Abdussalam's projects</div>
-              <div class="">
-                <button class="hobbies">Hobbies</button>
-              </div>
-            </div>
-            <div class="">
-              <!-- <svg
-                aria-hidden="true"
-                fill="none"
-                height="16"
-                stroke="var(--ds-gray-900)"
-                stroke-width="1.5"
-                viewBox="0 0 16 24"
-              >
-                <path d="M13 8.517L8 3 3 8.517M3 15.48l5 5.517 5-5.517"></path>
-              </svg> -->
             </div>
           </div>
         </div>
-        <div class="flex-end">
-          <div class="upfeed">
-            <span class="upgrade">Upgrade</span>
-            <span class="feedback">Feedback</span>
-          </div>
-          <div class="help">
-            <a href="#">Changelog</a>
-            <a href="#">Help</a>
-            <a href="#">Docs</a>
-          </div>
-          <div class="not-acc">
-            <div class="">
-              <i class="fa-regular fa-bell notification-logo"></i>
+        <div class="nav-section">
+          <a href="#" class="overview">Overview</a>
+          <a href="#" class="common">Integration</a>
+          <a href="#" class="common">Activity</a>
+          <a href="#" class="common">Domain</a>
+          <a href="#" class="common">Usage</a>
+          <a href="#" class="common">Monitoring</a>
+          <a href="#" class="common">Storage</a>
+          <a href="#" class="common">Setting</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="section-1">
+          <div class="search">
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <div class="">
+            <div class="input">
+              <input type="search" placeholder="Search..." class="inputt" />
+            </div>
+          </div>
+          <div class="hor-vert">
+            <div class="grip">
+              <span class="material-symbols-outlined"> grid_view </span>
+            </div>
+            <div class="list">
+              <i class="fa-solid fa-list"></i>
+            </div>
+          </div>
+          <div class="add-new">
+            <button>Add New...</button>
+            <div class="content">
+              <a href="">Project</a>
+              <a href="">Domain</a>
+              <a href="">Storage</a>
+              <a href="">Team Member</a>
+            </div>
+          </div>
+        </div>
+        <div class="section-2">
+          <div class="part-1">
+            <div class="google-clone">
+              <div class="diagram">
+                <img
+                  data-version="v1"
+                  alt="Other"
+                  title="Other"
+                  loading="eager"
+                  width="32"
+                  height="32"
+                  decoding="async"
+                  data-nimg="1"
+                  class="image_intrinsic__ulrJk"
+                  src="https://api-frameworks.vercel.sh/framework-logos/other.svg"
+                  style="color: transparent"
+                />
+              </div>
+              <div class="names">
+                <div class="name">google-clone</div>
+                <div class="address">google-clone.vercel.app</div>
+              </div>
+              <div class="other-option">
+                <div class="insight">
+                  <svg
+                    class="with-icon_icon__MHUeb"
+                    data-testid="geist-icon"
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    style="color: var(--accents-3); width: 18px; height: 18px"
+                  >
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                  <div class="tooltip">
+                    get detailed performance metrics by enabling speed insight
+                  </div>
+                </div>
+                <div class="ellipsis"><i class="fa-solid fa-ellipsis"></i></div>
+              </div>
+            </div>
+            <div class="commit">
+              <div class="paragraph">
+                <p>first commit - commiting all files to the repository</p>
+              </div>
+              <div class="github">
+                <i class="fa-brands fa-github"></i>
+                3d ago
+                <i class="fa-solid fa-code-merge"></i>
+                main
+              </div>
+            </div>
+            <div class="arrow-up">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </div>
+          <div class="part-2">
+            <div class="google-clone">
+              <div class="diagram">
+                <img
+                  data-version="v1"
+                  alt="Other"
+                  title="Other"
+                  loading="eager"
+                  width="32"
+                  height="32"
+                  decoding="async"
+                  data-nimg="1"
+                  class="image_intrinsic__ulrJk"
+                  src="https://api-frameworks.vercel.sh/framework-logos/other.svg"
+                  style="color: transparent"
+                />
+              </div>
+              <div class="names">
+                <div class="name">mo-cv</div>
+                <div class="address">mo-cv.vercel.app</div>
+              </div>
+              <div class="other-option">
+                <div class="insight">
+                  <svg
+                    class="with-icon_icon__MHUeb"
+                    data-testid="geist-icon"
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    style="color: var(--accents-3); width: 18px; height: 18px"
+                  >
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                  <div class="tooltip">
+                    get detailed performance metrics by enabling speed insight
+                  </div>
+                </div>
+                <div class="ellipsis"><i class="fa-solid fa-ellipsis"></i></div>
+              </div>
+            </div>
+            <div class="commit">
+              <div class="paragraph">
+                <p>first commit - commiting all files to the repository</p>
+              </div>
+              <div class="github">
+                <i class="fa-brands fa-github"></i>
+                3d ago
+                <i class="fa-solid fa-code-merge"></i>
+                main
+              </div>
+            </div>
+            <div class="arrow-up">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </div>
+          <!-- <div class="part-3"></div> -->
+        </div>
+      </div>
+      <div class="footer">
+        <div class="line-1">
+          <div class="copyright">
+            <span>
               <img
-                src="https://vercel.com/api/www/avatar/5wSP6CUEiCwTz5GjEfGUeQxF?&s=64"
+                class="image"
+                src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205024/logo-vercel-icon-md.png"
                 alt=""
-                class="account-logo"
               />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="nav-section">
-        <a href="#">Overview</a>
-        <a href="#">Integration</a>
-        <a href="#">Activity</a>
-        <a href="#">Domain</a>
-        <a href="#">Usage</a>
-        <a href="#">Monitoring</a>
-        <a href="#">Storage</a>
-        <a href="#">Setting</a>
-      </div>
-    </div>
-    <div class="container">
-      <div class="section-1">
-        <div class="search">
-          <div class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-          <div class="input">
-            <input type="search" placeholder="Search..." class="inputt" />
-          </div>
-        </div>
-        <div class="hor-vert">
-          <div class="grip">
-            <span class="material-symbols-outlined"> grid_view </span>
-          </div>
-          <div class="list">
-            <i class="fa-solid fa-list"></i>
-          </div>
-        </div>
-        <div class="add-new">
-          <button>Add New...</button>
-          <div class="content">
-            <a href="">Project</a>
-            <a href="">Domain</a>
-            <a href="">Storage</a>
-            <a href="">Team Member</a>
-          </div>
-        </div>
-      </div>
-      <div class="section-2">
-        <div class="part-1">
-          <div class="google-clone">
-            <div class="diagram">
-              <img
-                data-version="v1"
-                alt="Other"
-                title="Other"
-                loading="eager"
-                width="32"
-                height="32"
-                decoding="async"
-                data-nimg="1"
-                class="image_intrinsic__ulrJk"
-                src="https://api-frameworks.vercel.sh/framework-logos/other.svg"
-                style="color: transparent"
-              />
-            </div>
-            <div class="names">
-              <div class="name">google-clone</div>
-              <div class="address">google-clone.vercel.app</div>
-            </div>
-            <div class="other-option">
-              <div class="insight">
-                <svg
-                  class="with-icon_icon__MHUeb"
-                  data-testid="geist-icon"
-                  fill="none"
-                  height="24"
-                  shape-rendering="geometricPrecision"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  style="color: var(--accents-3); width: 18px; height: 18px"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
-                <div class="tooltip">
-                  get detailed performance metrics by enabling speed insight
-                </div>
-              </div>
-              <div class="ellipsis"><i class="fa-solid fa-ellipsis"></i></div>
-            </div>
-          </div>
-          <div class="commit">
-            <div class="paragraph">
-              <p>first commit - commiting all files to the repository</p>
-            </div>
-            <div class="github">
-              <i class="fa-brands fa-github"></i>
-              3d ago
-              <i class="fa-solid fa-code-merge"></i>
-              main
-            </div>
-          </div>
-          <div class="arrow-up">
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-          </div>
-        </div>
-        <div class="part-2">
-          <div class="google-clone">
-            <div class="diagram"><i class="fa-regular fa-circle"></i></div>
-            <div class="names">
-              <div class="name">mo-cv</div>
-              <div class="address">mo-cv.vercel.app</div>
-            </div>
-            <div class="other-option">
-              <div class="insight">
-                <i class="fa-solid fa-arrow-trend-up"></i>
-                <div class="tooltip">
-                  get detailed performance metrics by enabling speed insight
-                </div>
-              </div>
-              <div class="ellipsis"><i class="fa-solid fa-ellipsis"></i></div>
-            </div>
-          </div>
-          <div class="commit">
-            <div class="paragraph">
-              <p>first commit - commiting all files to the repository</p>
-            </div>
-            <div class="github">
-              <i class="fa-brands fa-github"></i>
-              3d ago
-              <i class="fa-solid fa-code-merge"></i>
-              main
-            </div>
-          </div>
-          <div class="arrow-up">
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-          </div>
-        </div>
-        <!-- <div class="part-3"></div> -->
-      </div>
-    </div>
-    <div class="footer">
-      <div class="line-1">
-        <div class="copyright">
-          <span>
-            <img
-              class="image"
-              src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205024/logo-vercel-icon-md.png"
-              alt=""
-            />
-          </span>
-          <span class="copy">
-            <i class="fa-regular fa-copyright"></i>
-            2023
-          </span>
-          <span class="system">
-            <i class="fa-solid fa-circle circle"></i>All systems normal
-          </span>
-        </div>
-        <div class="command-menu">
-          <div class="pt-1">
-            <div class="command">Command Menu</div>
-            <div class="keys">
-              <span class="keyboard-command-key key">
-                <span class="material-symbols-outlined">
-                  keyboard_command_key
-                </span>
-              </span>
-              <span class="k">
-                <i class="fa-solid fa-k"></i>
-              </span>
-            </div>
-          </div>
-          <div class="pt-2">
-            <span class="material-symbols-outlined dark_mode"> dark_mode </span>
-            <span class="material-symbols-outlined sunny"> sunny </span>
-            <span class="material-symbols-outlined desktop_windows">
-              desktop_windows
+            </span>
+            <span class="copy">
+              <i class="fa-regular fa-copyright"></i>
+              2023
+            </span>
+            <span class="system">
+              <i class="fa-solid fa-circle circle"></i>All systems normal
             </span>
           </div>
+          <div class="command-menu">
+            <div class="pt-1">
+              <div class="command">Command Menu</div>
+              <div class="keys">
+                <span class="keyboard-command-key key">
+                  <span class="material-symbols-outlined">
+                    keyboard_command_key
+                  </span>
+                </span>
+                <span class="k">
+                  <i class="fa-solid fa-k"></i>
+                </span>
+              </div>
+            </div>
+            <div class="pt-2">
+              <span class="material-symbols-outlined dark_mode">
+                dark_mode
+              </span>
+              <span class="material-symbols-outlined sunny"> sunny </span>
+              <span class="material-symbols-outlined desktop_windows">
+                desktop_windows
+              </span>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="line-2">
-        <div class="left">
-          <div class="#"><i class="fa-brands fa-github github"></i></div>
-          <div class="#"><i class="fa-brands fa-x-twitter"></i></div>
-        </div>
-        <div class="middle">
-          <a href="#">Home</a>
-          <a href="#">Documentation</a>
-          <a href="#">Guides</a>
-          <a href="#">Help</a>
-          <a href="#">Contact sales</a>
-          <a href="#">Blog</a>
-          <a href="#">Changelog</a>
-          <a href="#">Pricing</a>
-          <a href="#">Enterprise</a>
-        </div>
-        <div class="right">
-          <button><a href="" class="Legal">Legal</a></button>
-          <div class="legal-sub">
-            <a href="">Privacy Policy</a>
-            <a href="">Terms of Service</a>
-            <a href="">Trademark Policy</a>
-            <a href="">Inactivity Policy </a>
-            <a href="">DMCA Policy</a>
-            <a href="">Support Terms</a>
-            <a href="">DPA</a>
-            <a href="">SLA</a>
-            <a href="">Sub-Processors</a>
-            <a href="">Cookie Preferences</a>
-            <a href="">Event Terms and Conditions</a>
-            <a href="">Event Code of Conduct</a>
-            <a href="">Job Applicant Privacy Notice </a>
+        <div class="line-2">
+          <div class="left">
+            <div class="#"><i class="fa-brands fa-github github"></i></div>
+            <div class="#"><i class="fa-brands fa-x-twitter"></i></div>
+          </div>
+          <div class="middle">
+            <a href="#">Home</a>
+            <a href="#">Documentation</a>
+            <a href="#">Guides</a>
+            <a href="#">Help</a>
+            <a href="#">Contact sales</a>
+            <a href="#">Blog</a>
+            <a href="#">Changelog</a>
+            <a href="#">Pricing</a>
+            <a href="#">Enterprise</a>
+          </div>
+          <div class="right">
+            <button><a href="" class="Legal">Legal</a></button>
+            <div class="legal-sub">
+              <a href="">Privacy Policy</a>
+              <a href="">Terms of Service</a>
+              <a href="">Trademark Policy</a>
+              <a href="">Inactivity Policy </a>
+              <a href="">DMCA Policy</a>
+              <a href="">Support Terms</a>
+              <a href="">DPA</a>
+              <a href="">SLA</a>
+              <a href="">Sub-Processors</a>
+              <a href="">Cookie Preferences</a>
+              <a href="">Event Terms and Conditions</a>
+              <a href="">Event Code of Conduct</a>
+              <a href="">Job Applicant Privacy Notice </a>
+            </div>
           </div>
         </div>
       </div>
