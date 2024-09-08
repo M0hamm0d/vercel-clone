@@ -22,10 +22,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="body">
-      <div class="header-container">
+      <!-- <div class="header-container"> -->
         <header class="header-section">
           <div class="flex-start">
             <div class="triangle">
@@ -33,7 +36,7 @@
                 aria-label="Vercel Logo"
                 fill="var(--geist-foreground)"
                 viewBox="0 0 75 65"
-                height="26"
+                height="22"
                 data-testid="dashboard/logo"
               >
                 <path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
@@ -46,14 +49,13 @@
                 fill="none"
                 height="24"
                 shape-rendering="geometricPrecision"
-                stroke="currentColor"
+                stroke="#ebebeb"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="1"
                 viewBox="0 0 24 24"
                 width="24"
                 style="
-                  color: var(--ds-gray-alpha-400);
                   width: 22px;
                   height: 22px;
                 "
@@ -63,7 +65,7 @@
             </div>
             <div class="Address-name">
               <div class="Address">
-                <div class="">
+                <div class="Color">
                   <img
                     src="https://vercel.com/api/www/avatar?teamId=team_2pPkmpDXhGDX2WMsH05ouzcE&s=44"
                     alt=""
@@ -75,14 +77,76 @@
                   <button class="hobbies">Hobby</button>
                 </div>
               </div>
-              <div class="">
+              <div class="Unfoldmore">
+                <span class="material-symbols-outlined unfold_more">
+                  unfold_more
+                </span>  
+                <div class="unfoldmore-dropdown">
+                  <div class="Find-team">
+                    <div class="Magnifying-glass">
+                      <div class="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <div class="">
+                        <input type="search" placeholder="Find Team...">
+                      </div>
+                    </div>
+                    <div class="">
+                      <button>Esc</button>
+                    </div>
+                  </div>
+                  <div class="Teams">
+                    Teams
+                  </div>
+                  <div class="check">
+                    <div class="img-color">
+                      <img
+                        src="https://vercel.com/api/www/avatar?teamId=team_2pPkmpDXhGDX2WMsH05ouzcE&s=44"
+                        alt=""
+                        class="colors"
+                      />
+                      <p>Muhammad Abdussala...</p>
+                    </div>
+                    <div class="">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                  </div>
+                  <div class="Add-circle">
+                    <div class="">
+                      <span class="material-symbols-outlined">
+                        add_circle
+                      </span>
+                    </div>
+                      <p>Create Team</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="flex-end">
             <div class="upfeed">
               <span class="upgrade">Upgrade</span>
-              <span class="feedback">Feedback</span>
+              <span class="feedback">
+                <p>Feedback</p>
+                <div class="feedback-dropdown">
+                  <input type="search" placeholder="Your feedback...">
+                  <div class="markdown-logo">
+                    <span class="material-symbols-outlined">
+                      markdown
+                      </span>
+                      <p>supported.</p>
+                  </div>
+                  <div class="face-mode">
+                    <div class="rate">
+                      <i class="fa-regular fa-face-grin-stars fa-lg"></i>
+                      <i class="fa-regular fa-face-smile fa-lg"></i>
+                      <i class="fa-regular fa-face-frown fa-lg"></i>
+                      <i class="fa-regular fa-face-sad-cry fa-lg"></i>
+                    </div>
+                    <button class="send-button">send</button>
+                 </div>
+                </div>
+              </span>
             </div>
             <div class="help">
               <a href="#">Changelog</a>
@@ -92,13 +156,94 @@
             <div class="not-acc">
               <div class="Logo">
                 <i class="fa-regular fa-bell notification-logo logo"></i>
+                <div class="Logo-Dropdown">
+                  <div class="IACS">
+                    <div class="IAC">
+                      <div class=""><p>Inbox</p></div>
+                      <div class=""><p>Archive</p></div>
+                      <div class=""><p>Comment</p></div>
+                    </div>
+                    <div class="b">
+                      <span class="material-symbols-outlined">
+                        settings
+                      </span>
+                    </div>
+                  </div>
+                  <div class="Inbox">
+                      <div>
+                        <i class="fa-solid fa-inbox"></i>
+                        <p>No New Notifications</p>
+                      </div>
+                  </div>
+                </div>
               </div>
-              <div class="">
+              <div class="Account">
                 <img
                   src="https://vercel.com/api/www/avatar/5wSP6CUEiCwTz5GjEfGUeQxF?&s=64"
                   alt=""
                   class="account-logo"
                 />
+                <div class="account-dropdown">
+                  <div class="a">
+                    <a href="mailto:masalami042@gmail.com">masalami042@gmail.com</a>
+                  </div>
+                  <div class="All a">
+                    <div>
+                      Account Settings
+                    </div>
+                    <div class="">
+                      <span class="material-symbols-outlined">
+                        settings
+                      </span>
+                    </div>
+                  </div>
+                  <div class="All a">
+                    <div>
+                      Create Team
+                    </div>
+                    <div class="">
+                      <span class="material-symbols-outlined">
+                        add
+                      </span>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="All a">
+                    <div>
+                      Command Menu
+                    </div>
+                    <div class="ctrlk">
+                      <button><p>Ctrl</p></button>
+                      <button><p>K</p></button>
+                    </div>
+                  </div>
+                  <div class="All a">
+                    <div class="">Theme</div>
+                    <div class="Theme">
+                      <div class="System">
+                        <i class="fa-solid fa-display"></i>
+                        <p>System</p>
+                      </div>
+                      <div class="">
+                        <span class="material-symbols-outlined unfold_more">
+                          unfold_more
+                          </span>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="All a">
+                    <div class="">Vercel Homepage</div>
+                    <div class=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                  </div>
+                  <div class="a">
+                    Log Out
+                  </div>
+                  <hr>
+                  <div class="pro a">
+                    <button>Upgrade to Pro</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -114,15 +259,21 @@
           <a href="#" class="common">Setting</a>
           <div class="animation start-overview"></div>
         </nav>
-      </div>
+      <!-- </div> -->
       <main class="container">
         <div class="section-1">
           <div class="search">
             <div class="search-icon">
-              <i class="fa-solid fa-magnifying-glass"></i>
+              <svg class="with-icon_icon__MHUeb" data-testid="geist-icon" fill="none"
+               height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                 viewBox="0 0 24 24" width="24" style="color: currentcolor; width: 20px; height: 20px;">
+                 <path d="M11 17.25a6.25 6.25 0 110-12.5 6.25 6.25 0 010 12.5z"></path>
+                 <path d="M16 16l4.5 4.5"></path>
+              </svg>
             </div>
             <div class="input">
-              <input type="search" placeholder="search..." class="inputt" />
+              <input type="search" placeholder="Search..." class="inputt" />
             </div>
           </div>
           <div class="hor-vert">
@@ -148,7 +299,10 @@
             </div>
           </div>
           <div class="add-new">
-            <button>Add New...</button>
+            <span>
+              <button>Add New...</button>
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
             <div class="content">
               <a href="">Project</a>
               <a href="">Domain</a>
@@ -161,14 +315,14 @@
               class="with-icon_icon__MHUeb plus"
               data-testid="geist-icon"
               fill="none"
-              height="24"
+              height="10px"
               shape-rendering="geometricPrecision"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="1.5"
               viewBox="0 0 24 24"
-              width="24"
+              width="50px"
               style="color: currentcolor"
             >
               <path d="M12 5v14"></path>
@@ -191,7 +345,7 @@
                   data-nimg="1"
                   class="image_intrinsic__ulrJk"
                   src="https://api-frameworks.vercel.sh/framework-logos/other.svg"
-                  style="color: transparent"
+                  style="color: transparent;border: 1px solid #f0f0f0;border-radius: 30px;"
                 />
               </div>
               <div class="names">
@@ -212,7 +366,7 @@
                     stroke-width="2"
                     viewBox="0 0 24 24"
                     width="24"
-                    style="color: var(--accents-3); width: 18px; height: 18px"
+                    style="color: #6e6e6e; width: 18px; height: 18px"
                   >
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                   </svg>
@@ -229,9 +383,24 @@
               </div>
               <div class="github">
                 <i class="fa-brands fa-github"></i>
-                3d ago
-                <i class="fa-solid fa-code-merge"></i>
-                main
+                <span>14d ago</span>
+                <svg data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16"
+                 width="16" style="width: 16px; height: 16px; color: var(--ds-gray-900);"><path 
+                 d="M4 6.25V14.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" 
+                 stroke-linejoin="round"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" 
+                  d="M10.5 12C10.5 12.8284 11.1716 13.5 12 13.5C12.8284 13.5 13.5 12.8284 13.5
+                   12C13.5 11.1716 12.8284 10.5 12 10.5C11.1716 10.5 10.5 11.1716 10.5 12ZM9.079 
+                   12.6869C9.38957 14.0127 10.5795 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 
+                   13.6569 9 12 9C10.6293 9 9.47333 9.91924 9.1149 11.1749C8.05096 10.9929 7.0611 
+                   10.4857 6.28769 9.71231C5.51428 8.9389 5.0071 7.94904 4.82513 6.8851C6.08076 6.52667 
+                   7 5.37069 7 4C7 2.34315 5.65685 1 4 1C2.34315 0.999999 1 2.34315 1 4C1 5.42051 1.98728
+                    6.61042 3.3131 6.921C3.51279 8.37102 4.18025 9.72619 5.22703 10.773C6.2738 11.8197 7.62898
+                     12.4872 9.079 12.6869ZM2.5 4C2.5 4.82843 3.17157 5.5 4 5.5C4.82843 5.5 5.5 4.82843 5.5
+                      4C5.5 3.17157 4.82843 2.5 4 2.5C3.17157 2.5 2.5 3.17157 2.5 4Z" fill="currentColor">
+                    </path>
+                  </svg>
+                <span>main</span>
               </div>
             </div>
             <div class="arrow-up">
@@ -252,7 +421,7 @@
                   data-nimg="1"
                   class="image_intrinsic__ulrJk"
                   src="https://api-frameworks.vercel.sh/framework-logos/other.svg"
-                  style="color: transparent"
+                  style="color: transparent;border: 1px solid #f0f0f0;border-radius: 30px;"
                 />
               </div>
               <div class="names">
@@ -273,7 +442,7 @@
                     stroke-width="2"
                     viewBox="0 0 24 24"
                     width="24"
-                    style="color: var(--accents-3); width: 18px; height: 18px"
+                    style="color: #6e6e6e; width: 18px; height: 18px"
                   >
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                   </svg>
@@ -290,9 +459,24 @@
               </div>
               <div class="github">
                 <i class="fa-brands fa-github"></i>
-                3d ago
-                <i class="fa-solid fa-code-merge"></i>
-                main
+                <span>14d ago</span>
+                <svg data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16"
+                width="16" style="width: 16px; height: 16px; color: var(--ds-gray-900);"><path 
+                d="M4 6.25V14.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" 
+                stroke-linejoin="round"></path>
+                 <path fill-rule="evenodd" clip-rule="evenodd" 
+                 d="M10.5 12C10.5 12.8284 11.1716 13.5 12 13.5C12.8284 13.5 13.5 12.8284 13.5
+                  12C13.5 11.1716 12.8284 10.5 12 10.5C11.1716 10.5 10.5 11.1716 10.5 12ZM9.079 
+                  12.6869C9.38957 14.0127 10.5795 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 
+                  13.6569 9 12 9C10.6293 9 9.47333 9.91924 9.1149 11.1749C8.05096 10.9929 7.0611 
+                  10.4857 6.28769 9.71231C5.51428 8.9389 5.0071 7.94904 4.82513 6.8851C6.08076 6.52667 
+                  7 5.37069 7 4C7 2.34315 5.65685 1 4 1C2.34315 0.999999 1 2.34315 1 4C1 5.42051 1.98728
+                   6.61042 3.3131 6.921C3.51279 8.37102 4.18025 9.72619 5.22703 10.773C6.2738 11.8197 7.62898
+                    12.4872 9.079 12.6869ZM2.5 4C2.5 4.82843 3.17157 5.5 4 5.5C4.82843 5.5 5.5 4.82843 5.5
+                     4C5.5 3.17157 4.82843 2.5 4 2.5C3.17157 2.5 2.5 3.17157 2.5 4Z" fill="currentColor">
+                   </path>
+                 </svg>
+                <span>main</span>
               </div>
             </div>
             <div class="arrow-up">
@@ -348,21 +532,38 @@
         <div class="line-2">
           <div class="left">
             <div class="#"><i class="fa-brands fa-github github"></i></div>
-            <div class="#"><i class="fa-brands fa-x-twitter"></i></div>
+            <div class="#"><i class="fa-brands fa-x-twitter  "></i></div>
           </div>
           <div class="middle">
             <a href="#">Home</a>
             <a href="#">Documentation</a>
             <a href="#">Guides</a>
             <a href="#">Help</a>
-            <a href="#">Contact</a>
+            <a href="#">Contact Sales</a>
             <a href="#">Blog</a>
             <a href="#">Changelog</a>
             <a href="#">Pricing</a>
             <a href="#">Enterprise</a>
+            <p style="color: #666666;">Legal</p>
+            <div class="left-3">
+              <div class="#"><i class="fa-brands fa-github fa-xl github"></i></div>
+              <div class="#"><i class="fa-brands fa-x-twitter fa-xl"></i></div>
+            </div>
+            <div class="pt-4">
+              <span class="material-symbols-outlined dark_mode">
+                dark_mode
+              </span>
+              <span class="material-symbols-outlined sunny"> sunny </span>
+              <span class="material-symbols-outlined desktop_windows">
+                desktop_windows
+              </span>
+            </div>
           </div>
           <div class="right">
             <button><a href="" class="Legal">Legal</a></button>
+            <span class="material-symbols-outlined">
+              expand_more
+              </span>
             <div class="legal-sub">
               <a href="">Privacy Policy</a>
               <a href="">Terms of Service</a>
@@ -377,6 +578,21 @@
               <a href="">Event Terms and Conditions</a>
               <a href="">Event Code of Conduct</a>
               <a href="">Job Applicant Privacy Notice </a>
+            </div>
+          </div>
+          <div class="right-2">
+            <div class="left-2">
+              <div class="#"><i class="fa-brands fa-github fa-xl github"></i></div>
+              <div class="#"><i class="fa-brands fa-x-twitter fa-xl"></i></div>
+            </div>
+            <div class="pt-3">
+              <span class="material-symbols-outlined dark_mode">
+                dark_mode
+              </span>
+              <span class="material-symbols-outlined sunny"> sunny </span>
+              <span class="material-symbols-outlined desktop_windows">
+                desktop_windows
+              </span>
             </div>
           </div>
         </div>
